@@ -21,15 +21,24 @@ For Node Express Server
 -----------------------------------
 Get API
 -----------------------------------
-13. Create API, Dynamic API, Params (https://github.com/naimsiddiquibd/DinamicAPI-Parameter-PARAMS)
+13. Create API, Dynamic API, Params (https://github.com/naimsiddiquibd/DinamicAPI-Parameter-PARAMS/blob/main/index.js)
 14. npm install cors (to use server side API to client side)<br>
     require cors: const cors = require('cors');<br>
     Add a middleware: app.use(cors());
 -----------------------------------
 Post API
 -----------------------------------
-15. Create: client side, form, submit button, get value from inputs, onSubmit funstion, Send data to the server (https://github.com/naimsiddiquibd/react-project-1/blob/main/src/App.js)
+15. Create: client side, form, submit button, get value from inputs, onSubmit function, Send data to the server (https://github.com/naimsiddiquibd/react-project-1/blob/main/src/App.js)
 16. From the client side: Upload JSON data (https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch)
 17. Add a middleware: app.use(express.json());
-18. From the server side: Get te value of the "req.body";, change the new post's id number to "friends.length + 1";, push it to the main array, "res.send(friend)"; (https://github.com/naimsiddiquibd/DinamicAPI-Parameter-PARAMS Line: 30-36)
-
+18. From the server side: Get te value of the "req.body";, change the new post's id number to "friends.length + 1";, push it to the main array, "res.send(friend)"; (https://github.com/naimsiddiquibd/DinamicAPI-Parameter-PARAMS/blob/main/index.js Line: 39-45)
+-----------------------------------
+Query Parameter
+-----------------------------------
+19. To search on browser's link box: http://localhost:5000/friends?name=naim
+20. In the server side: (https://github.com/naimsiddiquibd/DinamicAPI-Parameter-PARAMS/blob/main/index.js Line: 23-30)
+-----------------------------------
+Git Ignore
+-----------------------------------
+21. Create a file by clicking package.json: .gitignore
+22. Write what you want to hide: node_modules
