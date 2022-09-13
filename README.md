@@ -14,10 +14,10 @@ For Node Express Server
 8. Check browser for the port
 9. Change the port: process.env.PORT || 5000
 10. To setup auto update functionality: npm install -g nodemon (https://www.npmjs.com/package/nodemon)
-11. Add the "scripts" inside the "package.json":
-    "start": "node index.js",
-    "start-dev": "nodemon index.js",
-12. Now to run the server: nodemon index.js
+11. Add the "scripts" inside the "package.json":<br>
+    "start": "node index.js",<br>
+    "start-dev": "nodemon index.js",<br>
+12. Now to run the server: nodemon index.js<br>
 -----------------------------------
 Get API
 -----------------------------------
