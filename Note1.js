@@ -15,3 +15,15 @@
 //     "start": "node index.js",
 //     "start-dev": "nodemon index.js",
 // 12. nodemon index.js
+// -----------------------------------
+// Get API
+// -----------------------------------
+// 13. Create API, Dynamic API, Params (https://github.com/naimsiddiquibd/DinamicAPI-Parameter-PARAMS)
+// 14. npm install cors (to use server side API to client side)
+//     require cors: const cors = require('cors');
+//     Add a middleware: app.use(cors());
+// -----------------------------------
+// Post API
+// -----------------------------------
+// 15. Create: client side, form, submit button
+// 16. 
