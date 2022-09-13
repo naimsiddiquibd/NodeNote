@@ -1,5 +1,5 @@
 ----------------------------------
-SETUP A NODE PROJECT
+Setup A Node Project
 ----------------------------------
 1. create a folder (manually or mkdir)
 2. open command line to that folder
@@ -28,5 +28,8 @@ Get API
 -----------------------------------
 Post API
 -----------------------------------
-15. Create: client side, form, submit button
-16. 
+15. Create: client side, form, submit button, get value from inputs, onSubmit funstion, Send data to the server (https://github.com/naimsiddiquibd/react-project-1/blob/main/src/App.js)
+16. From the client side: Upload JSON data (https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch)
+17. Add a middleware: app.use(express.json());
+18. From the server side: Get te value of the "req.body";, change the new post's id number to "friends.length + 1";, push it to the main array, "res.send(friend)"; (https://github.com/naimsiddiquibd/DinamicAPI-Parameter-PARAMS Line: 30-36)
+
