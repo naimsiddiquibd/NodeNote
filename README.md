@@ -22,8 +22,8 @@ For Node Express Server
 Get API
 -----------------------------------
 13. Create API, Dynamic API, Params (https://github.com/naimsiddiquibd/DinamicAPI-Parameter-PARAMS)
-14. npm install cors (to use server side API to client side)
-    require cors: const cors = require('cors');
+14. npm install cors (to use server side API to client side)<br>
+    require cors: const cors = require('cors');<br>
     Add a middleware: app.use(cors());
 -----------------------------------
 Post API
